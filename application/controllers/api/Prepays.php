@@ -19,8 +19,6 @@ class Prepays extends BaseController
 
 	public function listData()
 	{
-		echo 'listData()';
-		exit;
 		$get = $this->input->get();
 		$page = !empty($get['page']) ? $get['page'] : 1;
 		$per_page = !empty($get['per_page']) ? $get['per_page'] : $this->per_page;
