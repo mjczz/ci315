@@ -13,6 +13,8 @@ class Student extends BaseModel
 {
 	protected $table = 'nice_student';
 
+	protected $primaryKey = 'student_id';
+
 	protected $hidden = ['passwd'];
 
 	public function classins()

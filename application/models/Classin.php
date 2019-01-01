@@ -12,8 +12,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class Classin extends Model
 {
-
 	protected $table = 'nice_student_class_in';
+
+	protected $primaryKey = 'class_in_id';
 
 	protected $hidden = ['passwd'];
 

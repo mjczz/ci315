@@ -12,6 +12,8 @@ class Prepay extends BaseModel
 {
 	protected $table = 'nice_prepay';
 
+	protected $primaryKey = 'prepay_id';
+
 	protected $hidden = ['campus','prepay_detail'];
 
 	public function student()
